@@ -1,5 +1,5 @@
 ---
-title: POST
+title: GET和POST的区别
 date: 2020-03-26 18:39:45
 tags: HTTP
 ---
