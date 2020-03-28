@@ -8,7 +8,7 @@ subtitle: '断剑重铸之日，骑士归来之时'
 description: '断剑重铸之日，骑士归来之时'
 keywords:
 author: Edsion Gu
-language: en
+language: zh_CN
 timezone: ''
 
 # URL
@@ -93,11 +93,13 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: diaspora
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/edsion11/edsion11.github.io.git
+  repo:
+    github: https://github.com/edsion11/edsion11.github.io.git
+    coding: git@e.coding.net:guzhenxu/EdsionGudeboke.git
   branch: master
