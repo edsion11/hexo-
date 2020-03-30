@@ -1,7 +1,5 @@
 ---
 title: categories
-date: 2020-03-28 16:25:04
-type: 'categories'
+date: 2020-03-30 14:01:31
+type: "categories"
 ---
-
-categories
