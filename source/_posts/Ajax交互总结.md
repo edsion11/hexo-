@@ -24,7 +24,7 @@ tags:
 <code>xhr.send()</code>
 </ul>
 <p>下面是一个验证用户名的ajax例子</p>
-<pre>
+```javascript
 username.onblur = function(){
 var usernameValue = username.value;
 //将usernameValue提交给服务器，有服务器进行唯一性的校验
@@ -53,7 +53,7 @@ if(window.XMLHttpRequest) {
 	  }
      }
 };
-</pre>
+```
 <h4 id="XMLHttpRequest对象在IE和Firefox中创建方式有没有不同？">XMLHttpRequest对象在IE和Firefox中创建方式有没有不同？</h4>
 <span>
 IE中通过new ActiveXObject()得到，Firefox中通过newXMLHttpRequest()得到.
@@ -118,7 +118,7 @@ responseText 服务器返回的文本内容
 
 4：请求已完成，且响应就绪
 <h4 id="jquery ajax的实现">jquery ajax的实现</h4>
-<pre>
+```javascript
 $.ajax({
      url:发送请求的地址,
      data:数据的拼接,//发送到服务器的数据
@@ -129,7 +129,7 @@ $.ajax({
      success:function(){},//请求成功后的回调函数
      error: function(){}//请求失败时调用此函数
 })
-</pre>
+```
 不足之处：
 
 　　（1）针对MVC的编程,不符合现在前端MVVM的浪潮
